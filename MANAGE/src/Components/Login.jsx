@@ -4,9 +4,9 @@ import React from 'react'
 const Login = () => {
   return (
     
-    <div className="d-flex justfy-content-center align-item-center vh-100 loginPage">
+    <div className="d-flex justfy-content-center align-item-center vh-100 loginPage" >  
     <div className="p-3 rounded w-25 border loginForm" >
-      <h2>Login Page</h2>
+      <h2>Login Page</h2> 
       <form>
    
        <div>
