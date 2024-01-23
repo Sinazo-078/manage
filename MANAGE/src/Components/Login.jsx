@@ -21,7 +21,7 @@ const Login = () => {
         className='form-control rounded-0'/>
 
            </div> 
-           <button className='btn btn sucess w-100 rounded-0'>Submit</button>
+           <button className='btn btn sucess w-100 rounded-0'>Submit</button> 
         </form>
     </div>  
 </div>
