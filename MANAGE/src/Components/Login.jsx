@@ -21,8 +21,13 @@ const Login = () => {
         <input type="password" name="password"autoComplete="off" placeholder="Enter Email"
         className='form-control rounded-0'/>
 
+
            </div> 
            <button className='btn btn sucess w-100 rounded-0'>Submit</button> 
+        <div className="mb-3">
+          <input type="checkbox" name='tick' id='tick'/>
+          <label htmFor='password'><strong>You are Agree with Terms</strong></label>
+        </div>
         </form>
     </div>  
 </div>
