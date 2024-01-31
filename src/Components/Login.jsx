@@ -32,6 +32,7 @@ const Login = () => {
             </label>
             <input
               type="email"
+              id="email" // Updated: Added id attribute
               name="email"
               autoComplete="off"
               placeholder="Enter Email"
@@ -46,6 +47,7 @@ const Login = () => {
             </label>
             <input
               type="password"
+              id="password" // Updated: Added id attribute
               name="password"
               autoComplete="off"
               placeholder="Enter Password"
@@ -55,7 +57,7 @@ const Login = () => {
           </div>
 
           <button className="btn btn-success w-100 rounded-0 mb-2" type="submit">
-            Submit
+            Log in
           </button>
 
           <div className="mb-3">
